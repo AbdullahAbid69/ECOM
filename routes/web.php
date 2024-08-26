@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//ADMIN ROUTES BELOW !!!
+
 Route::get('admin/dashboard/',function (){
     return view('admin/dashboard');
 });
