@@ -20,3 +20,12 @@ Route::get('/', function () {
 Route::get('admin/dashboard/',function (){
     return view('admin/dashboard');
 });
+
+
+
+
+//USER ROUTES BELOW !!!
+
+Route::get('homepage', function(){
+    return view('user/home');
+})->name('home');;
